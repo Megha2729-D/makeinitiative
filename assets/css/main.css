@@ -3885,8 +3885,9 @@ div {
     font-size: 16px;
     text-transform: capitalize;
     width: 100%;
+    font-family: var(--heading-font);
     position: relative;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .mobile-menu .navbar__item a:hover {
