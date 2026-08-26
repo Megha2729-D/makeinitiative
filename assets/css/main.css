@@ -7507,7 +7507,7 @@ div {
     gap: 16px;
     padding: 30px;
     border-radius: 20px;
-    background: rgba(255, 255, 255, 0.47);
+    background: #ffffffcf;
     -webkit-backdrop-filter: blur(30px);
     backdrop-filter: blur(30px);
     position: absolute;
@@ -7520,7 +7520,7 @@ div {
 
 .help-two .help-two__thumb-content i {
     font-size: 65px;
-    color: var(--warm-ivory);
+    color: var(--sage);
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
 }
@@ -7540,7 +7540,7 @@ div {
 
 .help-two .help-two__thumb-content h2,
 .help-two .help-two__thumb-content p {
-    color: var(--warm-ivory);
+    color: var(--sage);
 }
 
 .help-two .help-two__inner {
