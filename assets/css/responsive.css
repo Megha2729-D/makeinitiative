@@ -1198,4 +1198,11 @@
         object-position: bottom;
         transform: translate(0%, 25.783%) translate3d(0px, 0px, 0px) !important;
     }
+
+    .faq {
+        padding: 0;
+    }
+    .testimonial-two{
+        padding: 100px 0 0;
+    }
 }
