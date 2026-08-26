@@ -828,13 +828,13 @@ div {
 }
 
 .section__header h2 {
-    color: var(--sage);
+    color: var(--olive);
     font-weight: 800;
     margin-top: 15px;
 }
 
 .section__header h2 span {
-    color: var(--sage);
+    color: var(--olive);
 }
 
 .section__header p {
@@ -921,7 +921,7 @@ div {
 
 .section__content h2 {
     font-weight: 800;
-    color: var(--sage);
+    color: var(--olive);
     margin-top: 16px;
 }
 
@@ -3012,8 +3012,9 @@ div {
 }
 
 .header .navbar__item a {
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 600;
+    font-family: var(--heading-font);
     text-transform: capitalize;
     padding: 42px 15px;
     width: 100%;
@@ -5251,7 +5252,7 @@ div {
 
 .footer {
     padding-top: 100px;
-    background-color: #0b1312;
+    background-color: var(--stone);
     position: relative;
 }
 
@@ -5261,7 +5262,7 @@ div {
     inset: 0px;
     width: 100%;
     height: 100%;
-    background: linear-gradient(104deg, rgba(12, 26, 23, 0) 1.9%, rgba(9, 31, 27, 0.08) 37.31%, rgba(9, 31, 27, 0.17) 40.18%, rgba(9, 31, 27, 0.37) 47.05%, rgba(9, 31, 27, 0.67) 56.36%, #091f1b 73.4%, #091f1b 95.2%, rgba(9, 31, 27, 0.91) 103.44%);
+    /* background: linear-gradient(104deg, rgba(12, 26, 23, 0) 1.9%, rgba(9, 31, 27, 0.08) 37.31%, rgba(9, 31, 27, 0.17) 40.18%, rgba(9, 31, 27, 0.37) 47.05%, rgba(9, 31, 27, 0.67) 56.36%, #091f1b 73.4%, #091f1b 95.2%, rgba(9, 31, 27, 0.91) 103.44%); */
 }
 
 .footer .footer__inner {
@@ -5279,12 +5280,12 @@ div {
 
 .footer .footer__content h3 {
     font-weight: 800;
-    color: var(--white);
+    color: var(--olive);
     margin-top: -8px;
 }
 
 .footer .footer__content h3 span {
-    color: var(--base-color);
+    color: var(--olive);
 }
 
 .footer .footer__support {
@@ -5448,7 +5449,7 @@ div {
 
 .footer .footer__list-intro h5 {
     font-weight: 700;
-    color: var(--white);
+    color: var(--olive);
     margin-top: -8px;
 }
 
@@ -5463,7 +5464,7 @@ div {
 .footer .footer__list-items a {
     font-weight: 500;
     font-size: 16px;
-    color: #d3d3d3;
+    color: var(--olive);
     overflow: hidden;
     position: relative;
     width: 100%;
@@ -5480,7 +5481,7 @@ div {
 }
 
 .footer .footer__list-items a:hover {
-    color: var(--warm-ivory);
+    color: var(--charcoal);
     -webkit-padding-start: 25px;
     padding-inline-start: 25px;
 }
@@ -5510,7 +5511,7 @@ div {
 
 .footer .footer__list-group p {
     margin-bottom: 14px;
-    color: #d3d3d3;
+    color: var(--olive);
     font-size: 14px
 }
 
@@ -5520,7 +5521,7 @@ div {
 
 .footer .footer__list-group a {
     font-size: 16px;
-    color: #d3d3d3;
+    color: var(--olive);
     text-transform: lowercase;
 }
 
@@ -5535,7 +5536,7 @@ div {
 }
 
 .footer .footer__copyright p {
-    color: var(--white);
+    color: var(--olive);
 }
 
 .footer .footer__copyright p a:hover {
@@ -5543,7 +5544,7 @@ div {
 }
 
 .footer .footer__copyright-logo img {
-    filter: brightness(0)invert();
+    /* filter: brightness(0)invert(); */
     width: 140px;
 }
 
@@ -5584,7 +5585,7 @@ div {
 }
 
 .footer .footer__bottom-list a {
-    color: var(--white);
+    color: var(--olive);
     position: relative;
 }
 
@@ -8172,7 +8173,7 @@ div {
     margin-top: -8px;
     margin-bottom: 8px;
     font-weight: 800;
-    color: var(--sage);
+    color: var(--olive);
 }
 
 .cause .content h6:hover {
@@ -9936,18 +9937,6 @@ div {
     overflow: hidden;
 }
 
-.testimonial-two::before {
-    content: "";
-    position: absolute;
-    top: 0px;
-    inset-inline-end: 0px;
-    bottom: 0px;
-    height: 100%;
-    width: 20%;
-    background-color: var(--base-color);
-    z-index: -1;
-}
-
 .testimonial-two .blog-bg {
     position: absolute;
     top: 0px;
@@ -10133,6 +10122,8 @@ div {
 
 .testimonial-two .swiper-slide-active .testimonial-two__single-content h5 {
     opacity: 1;
+    font-size: 15px;
+    color: var(--sage);
     -webkit-transform: translateX(0);
     -ms-transform: translateX(0);
     transform: translateX(0);
@@ -11338,7 +11329,7 @@ div {
 }
 
 .faq .faq__thumb-inner img {
-    width: unset;
+    width: 450px;
 }
 
 .faq .faq__thumb-inner .parallax-image-wrap,
