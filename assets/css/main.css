@@ -2571,7 +2571,7 @@ div {
  ==== */
 
 .preloader {
-    background-color: var(--black);
+    background-color: var(--warm-ivory);
     position: fixed;
     z-index: 99999;
     height: 100vh;

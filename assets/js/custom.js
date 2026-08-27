@@ -517,7 +517,7 @@
             spaceBetween: 24,
 
             autoplay: {
-                delay: 2000,
+                delay: 6000,
                 disableOnInteraction: false,
                 pauseOnMouseEnter: true,
             },
