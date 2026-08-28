@@ -10106,8 +10106,12 @@ div {
     transform: translateX(-20px);
     -webkit-transition: all 1000ms ease;
     transition: all 1000ms ease; */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 13;
+    line-clamp: 13;
+    overflow: hidden;
 }
-
 .testimonial-two__slider {
     max-height: 500px;
 }
@@ -15056,6 +15060,18 @@ div {
 @media only screen and (max-width: 991.98px) {
     .cause .thumb img {
         object-position: top;
+    }
+
+    .testimonial-two .testimonial-two__single-content h5 {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 7;
+        line-clamp: 7;
+        overflow: hidden;
+    }
+
+    .testimonial-two .testimonial-two__content {
+        padding: 50px 20px;
     }
 
     .soon {
