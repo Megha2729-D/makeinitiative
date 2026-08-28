@@ -214,7 +214,7 @@
             $(this).addClass("open-offcanvas-nav-active");
             $(".mobile-menu__backdrop").addClass("mobile-menu__backdrop-active");
             $(".nav-fade").each(function (i) {
-                $(this).css("animation-delay", 0.25 * 1 * i + "s");
+                $(this).css("animation-delay", "0s");
             });
 
             $(".mobile-menu").addClass("show-menu");
