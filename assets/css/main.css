@@ -15054,6 +15054,10 @@ div {
 }
 
 @media only screen and (max-width: 991.98px) {
+    .cause .thumb img {
+        object-position: top;
+    }
+
     .soon {
         padding: 100px 0px;
     }
